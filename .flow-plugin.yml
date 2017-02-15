@@ -1,0 +1,19 @@
+
+name: env
+version: 0.0.1
+language: 
+description: Config Variables
+public: true
+tags:
+  - env
+  - variable
+  - custom
+inputs:
+  - name: FLOW_ENV_HASH
+    editable: true
+outputs:
+script_path: ./run.sh  
+  
+template: |  
+  
+  
